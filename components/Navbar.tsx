@@ -75,8 +75,7 @@ const Navbar = () => {
                                         >
                                             {item.label}
                                         </Link>
-                                    </button>
-                                    
+                                    </button> 
                                 )
                             })}
                             {currentTheme === "dark" ? (
