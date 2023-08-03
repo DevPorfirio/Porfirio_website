@@ -61,20 +61,20 @@ const Navbar = () => {
                                 return (
                                     <button>
                                         <Link
-                                        key={idx}
-                                        to={item.page}
-                                        className={
-                                        "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
-                                        }
-                                        activeClass="active"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-100}
-                                        duration={500}
-                                        onClick={() => setNavbar(!navbar)}
-                                    >
-                                        {item.label}
-                                    </Link>
+                                            key={idx}
+                                            to={item.page}
+                                            className={
+                                            "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                                            }
+                                            activeClass="active"
+                                            spy={true}
+                                            smooth={true}
+                                            offset={-100}
+                                            duration={500}
+                                            onClick={() => setNavbar(!navbar)}
+                                        >
+                                            {item.label}
+                                        </Link>
                                     </button>
                                     
                                 )
