@@ -59,7 +59,8 @@ const Navbar = () => {
                         <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             {NAV_ITEMS.map((item, idx) => {
                                 return (
-                                    <Link
+                                    <button>
+                                        <Link
                                         key={idx}
                                         to={item.page}
                                         className={
@@ -74,6 +75,8 @@ const Navbar = () => {
                                     >
                                         {item.label}
                                     </Link>
+                                    </button>
+                                    
                                 )
                             })}
                             {currentTheme === "dark" ? (
